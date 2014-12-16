@@ -24,13 +24,13 @@ After installing the component, you can include the automatically generated java
 
 Then you can access the public metadata in the browser like this:
 
-```
+```javascript
 console.log(window.__public)
 ```
 
 The object has the same structure as the original Harp object so you can access:
 
-```
+```javascript
 console.log(window.__public.component._data)
 ```
 
