@@ -19,7 +19,7 @@ No clue what the `ngx` command line tool is? Learn more about [AngularJS Express
 After installing the component, you can include the automatically generated javascript in your application using a `script` element:
 
 ```xml
-<script src="/components/harp-inject-metadata/public" type="text/javascript">
+<script src="/components/harp-inject-public-metadata-in-root/public" type="text/javascript">
 ```
 
 Then you can access the public metadata in the browser like this:
