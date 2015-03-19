@@ -34,6 +34,16 @@ The object has the same structure as the original Harp object so you can access:
 console.log(window.__public.component._data)
 ```
 
+The data is also available in as an Angular service called `harpData`:
+
+```javascript
+function SomeController(harpData){
+  this.data = harpData.components.example._data;
+}
+
+SomeController.$inject = ['harpData'];
+```
+
 ## License
 
 MIT.
